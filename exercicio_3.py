@@ -55,3 +55,16 @@ Resposta:
 Não
 
 """
+
+cromossomo = str(input("Digite o cromossomo: "))
+posição = int(input("Digite a posição: "))
+genoma = str(input("Digite o genoma de referência: "))
+
+if cromossomo == "chr17" and 41196312 <= posição <= 41277500 and genoma == "hg19":
+    print("Sim")
+
+elif cromossomo == "chr17" and 43044295 <= posição <= 43125483 and genoma == "hg38":
+    print("Sim")
+
+else:
+    print("Não")
