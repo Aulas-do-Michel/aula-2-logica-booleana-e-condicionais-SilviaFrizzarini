@@ -53,8 +53,8 @@ Resposta:
 Não temos essa moeda em caixa.
 """
 
-destino = str(input("Para onde você vai viajar? "))
-real = float(input("Quantos reais você vai converter? "))
+destino = str(input("Para onde você vai viajar?"))
+real = float(input("Quantos reais você vai converter?"))
 
 dólar = real / 5
 peso = real * 180
